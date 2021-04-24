@@ -18,4 +18,4 @@
 9. error, i is not defined in the function.
 10. 0
 11. NULL
-12.  
+12. A. console.log(student.name) B. student.greeting()
