@@ -1,7 +1,7 @@
 ## Part 3
 
-1. aa
-2. aa
+1. The result variable doesn't calculate the number because num1 and num2 apply as a string. Therefore, they combine both string instead of calculate in a mathematical way. 
+2. In order to fix it, we can parse the parameter in calculateSum into integer so that it returns the summation value of both numbers.
 3. citylots.json
 4. part2.js
 5. 53 B
