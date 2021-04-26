@@ -2,8 +2,8 @@
 1. values added: 20
 2. final result: 20
 3. values added: 20 
-4. final result: 0
-5. values added: 0
+4. error, result is not defined in that scope because of the 'let' variable declaration. 
+5. error, const variable can't be reassigned.
 6. error, because the variable result is a constant type and it doesn't define inside else scope. 
 
 ## Part1b
@@ -14,11 +14,11 @@
 5. error, i is not defined in the function.
 6. error, discountedPrice is not defined in the function.
 7. 150
-8. NULL
+8. [50, 100, 150]
 9. error, i is not defined in the function.
-10. 0
-11. NULL
-12. A. student.name   B. student['Grade Year'] C. student.greeting() D. student['Favorite Teacher'] E. student.courseload
+10. 3
+11. error, discounted array can't be reassigned because it's declare outside the for loop. 
+12. A. student.name   B. student['Grade Year'] C. student.greeting() D. student['Favorite Teacher'].name E. student.courseload[0]
 13. A. 32, since integers map to their exact string representation B. 1, 3 becomes an integer and subtracts by 2 because '-' is a mathematical operation C. 3, null acts like zero D. 3null, null becomes string because the 3 is a string E. 4, true acts like a binary number 1 F. 0, false acts like a binary number 0 and adds by null G. 3undefined, undefined becomes a string because the 3 is a string H. NaN, 3 becomes an integer and undefined becomes NaN due to the mathermatical operation '-'
 14. A. True, 2 acts as an integer and compares by 1 B. False, 2 and 12 act act like a string and compare between each other C. True, '2' acts as an integer and compares if it's equal to 2   D. False, compare if 2 and '2' have the same data type or not  E. False, true acts like a binary number 1 and compare by 2  F. True, boolean(2) acts like a boolean true and compares if it has the same data type as boolean true
 15.  == uses for comparing two variables and ignores the datatype of the variable. === also uses for comparing two variables with checks their datatype.
